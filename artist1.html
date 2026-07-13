@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>glass beach &mdash; My Top 10 Artists</title>
+</head>
+<body>
+  <nav class="site-nav">
+    <div class="inner">
+      <a href="index.html" class="brand">TOP 10<small>Artist Chart</small></a>
+      <div class="nav-actions">
+        <div class="page-links"><a href="index.html">&larr; Countdown</a></div>
+        <button class="theme-toggle" data-theme-toggle type="button" role="switch" aria-checked="false" aria-label="Toggle light and dark theme">
+          <span class="knob">&#9788;</span>
+        </button>
+      </div>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    <header class="artist-hero">
+      <div class="giant-rank">01</div>
+      <div class="artist-photo-wrap">
+        <img src="images/glass beach.jpg" alt="glass beach pfp">
+      </div>
+      <div class="artist-heading">
+        <span class="eyebrow">#1 on the list</span>
+        <h1>glass beach</h1>
+        <p class="tagline">My favorite band of all time.</p>
+      </div>
+    </header>
+
+    <button class="reveal-btn" data-reveal-btn="detail-1" type="button" aria-expanded="false">
+      <span class="label-text">Show more</span><span class="chevron">&#8964;</span>
+    </button>
+
+    <div class="detail-panel" id="detail-1">
+      <div class="detail-panel-inner">
+        <div class="detail-grid">
+          <div class="detail-item">
+            <span class="label">Genre</span>
+            <span class="value">Indie rock/Emo</span>
+          </div>
+          <div class="detail-item">
+            <span class="label">Favorite Song</span>
+            <span class="value">bedroom community</span>
+          </div>
+          <div class="detail-item">
+            <span class="label">Why I Ranked It #1</span>
+            <span class="value">I first listened to glass beach from osu!, and after that day their music has been with me and I have never gotten tired. RIP glass beach, the best band of all time. Their songs are chaotic yet beautiful, blending so many different styles into something completely unique. No other band has left the same impact on me, which is why they will always be my number one favorite.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section>
+      <div class="section-heading">
+        <h2>Albums</h2>
+        <span>4 releases &middot; tap the heart to like</span>
+      </div>
+      <div class="carousel">
+        <div class="carousel-viewport">
+          <div class="carousel-track">
+          <div class="album-card">
+            <div class="album-cover">
+              <img src="images/tfgba.jpg" alt="the first glass beach album" loading="lazy">
+            </div>
+            <div class="album-body">
+              <span class="album-title">the first glass beach album</span>
+              <span class="album-year">2019</span>
+              <button class="album-like" data-album-id="artist1-album1" data-base-count="13" type="button" aria-pressed="false">
+                <span class="heart">&hearts;</span>
+                <span class="like-count">13</span>
+              </button>
+            </div>
+          </div>
+          <div class="album-card">
+            <div class="album-cover">
+              <img src="images/plastic death.jpg" alt="the second glass beach album" loading="lazy">
+            </div>
+            <div class="album-body">
+              <span class="album-title">plastic death</span>
+              <span class="album-year">2024</span>
+              <button class="album-like" data-album-id="artist1-album2" data-base-count="16" type="button" aria-pressed="false">
+                <span class="heart">&hearts;</span>
+                <span class="like-count">16</span>
+              </button>
+            </div>
+          </div>
+          <div class="album-card">
+            <div class="album-cover">
+              <img src="images/alchemist rats.jpg" alt="collab album" loading="lazy">
+            </div>
+            <div class="album-body">
+              <span class="album-title">alchemist rats</span>
+              <span class="album-year">2021</span>
+              <button class="album-like" data-album-id="artist1-album3" data-base-count="19" type="button" aria-pressed="false">
+                <span class="heart">&hearts;</span>
+                <span class="like-count">19</span>
+              </button>
+            </div>
+          </div>
+          <div class="album-card">
+            <div class="album-cover">
+              <img src="images/gb live.jpg" alt="live performance" loading="lazy">
+            </div>
+            <div class="album-body">
+              <span class="album-title">live at the ceremony</span>
+              <span class="album-year">2020</span>
+              <button class="album-like" data-album-id="artist1-album4" data-base-count="22" type="button" aria-pressed="false">
+                <span class="heart">&hearts;</span>
+                <span class="like-count">22</span>
+              </button>
+            </div>
+          </div>
+          </div>
+        </div>
+        <div class="carousel-controls">
+          <button class="car-btn car-prev" type="button" aria-label="Previous albums">&lsaquo;</button>
+          <div class="car-dots"></div>
+          <button class="car-btn car-next" type="button" aria-label="Next albums">&rsaquo;</button>
+        </div>
+      </div>
+    </section>
+
+    <nav class="updown-nav single">
+      <a class="next-link" href="artist2.html"><span class="dir">Next &rarr;</span><span class="name">Last Dinosaurs</span></a>
+    </nav>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap">Built for my top 10 &middot; Malimban Web Design Final Project</div>
+  </footer>
+  <button class="back-to-top" data-back-to-top type="button" aria-label="Back to top">&uarr;</button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
